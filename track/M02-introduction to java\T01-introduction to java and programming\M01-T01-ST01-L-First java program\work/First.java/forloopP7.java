@@ -1,5 +1,5 @@
 
-class forloop {
+class forloopP7 {
 
     public static void main(String[] args) {
 
