@@ -1,4 +1,6 @@
 
+import java.util.Scanner;
+
 class Word {
 
     String name;
@@ -21,8 +23,12 @@ class Word {
 public class Shadowing {
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String name = sc.next();
+        int age = sc.nextInt();
+        double height = sc.nextDouble();
         Word t1 = new Word();
-        t1.input(" anu", 21, 5.3);
+        t1.input(name, age, height);
         t1.display();
 
     }
