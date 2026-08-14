@@ -1,25 +1,6 @@
 
 import java.util.Scanner;
 
-class M1 {
-
-    void v1(int a, short b) {
-        System.out.println(a);
-        System.out.println(b);
-    }
-
-    void v1(short a, int b) {
-        System.out.println(a);
-        System.out.println(b);
-
-
-
-
-    ///System.out.println(c);
-    }
-    
-    
-}
 public class MethodOverloading {
 
     public static void main(String[] args) {
@@ -33,4 +14,23 @@ public class MethodOverloading {
         m1.v1(a, b);
         //m1.v1(c, a, b, d);
     }
+}
+
+class M1 {
+
+    void v1(int a, short b) {
+        System.out.println(a);
+        System.out.println(b);
+    }
+
+    void v1(short a, int b) {
+        System.out.println(a);
+        System.out.println(b);
+
+    
+
+///System.out.println(c);
+    }
+    
+    
 }
