@@ -7,8 +7,6 @@ public class MethodOverloading {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         short b = sc.nextShort();
-        double c = sc.nextDouble();
-        int d = sc.nextInt();
         M1 m1 = new M1();
         m1.v1(a, b);
         m1.v1(a, b);
@@ -26,11 +24,6 @@ class M1 {
     void v1(short a, int b) {
         System.out.println(a);
         System.out.println(b);
-
-    
-
-///System.out.println(c);
     }
-    
-    
+
 }
