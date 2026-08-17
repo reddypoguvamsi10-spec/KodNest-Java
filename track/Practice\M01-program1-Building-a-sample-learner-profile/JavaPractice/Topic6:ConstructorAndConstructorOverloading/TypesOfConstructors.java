@@ -1,5 +1,5 @@
 
-class constructorOverloading {
+class TypesOfConstructors {
 
     public static void main(String[] args) {
         Student s = new Student("Vamsi", 25, 5.8);
